@@ -38,24 +38,24 @@ function GetInput()
                     return;
                 }
             }
-            console.log(getMaxSubSum(gainsLosses))
+            console.log(FigureItOut(gainsLosses))
         }
         //console.log(days+"G/L: "+gainsLosses)
     });
 }
 
 
-function getMaxSubSum(arr) {
-    let maxSum = 0;
-    let partialSum = 0;
+function FigureItOut(arr) {
+    let maxProfit = 0;
+    let partialProfit = 0;
   
     for (let iI=0;iI<arr.length;iI++) { 
-      partialSum += parseInt(arr[iI]);
-      maxSum = Math.max(maxSum, partialSum);
-      if (partialSum < 0) partialSum = 0;
+      partialProfit += parseInt(arr[iI]);
+      maxProfit = Math.max(maxProfit, partialProfit);
+      if (partialProfit < 0) partialProfit = 0;
     }
   
-    return maxSum;
+    return maxProfit;
   }
   
   
