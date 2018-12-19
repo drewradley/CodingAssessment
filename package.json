@@ -1,0 +1,22 @@
+{
+  "name": "codingassessment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "TextDollar.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drewradley/CodingAssessment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drewradley/CodingAssessment/issues"
+  },
+  "homepage": "https://github.com/drewradley/CodingAssessment#readme",
+  "dependencies": {
+    "inquirer": "^6.2.1"
+  }
+}
